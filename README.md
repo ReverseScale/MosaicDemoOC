@@ -8,10 +8,10 @@
 
 之前有由于业务需要有封装过一个 Swift 的马赛克工具，鉴于 Swift 的更新换代特性，现在可能已经挂掉了，在网上查到的使用 OC 达到模糊效果的方法，这里只列出 5 种，仅供参考。
 
-| 名称 |1.列表页 |2.展示页 |3.结果页 |
-| ------------- | ------------- | ------------- | ------------- |
-| 截图 | ![](http://og1yl0w9z.bkt.clouddn.com/17-7-6/49394070.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/17-7-6/43197086.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/17-7-6/14637275.jpg) |
-| 描述 | 通过 storyboard 搭建基本框架 | 字典排列前 | 字典排列后 |
+| 名称 |1.列表页 |2.毛玻璃效果1 |3.毛玻璃效果2 |4.高斯模糊效果1 |5.高斯模糊效果2 |6.高斯模糊效果3 |
+| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
+| 截图 | ![](http://og1yl0w9z.bkt.clouddn.com/17-8-25/83835618.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/17-8-25/55833246.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/17-8-25/91365725.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/17-8-25/71751101.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/17-8-25/63012432.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/17-8-25/26533758.jpg) |
+| 描述 | 通过 storyboard 搭建基本框架 | UIToolbar方法 | UIVisualEffectVIew方法 | Core Image方法 | Acc.Framework方法 | GPUImage方法 |
 
 
 ## Advantage 框架的优势
