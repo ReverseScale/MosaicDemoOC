@@ -1,0 +1,747 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		341405D21F4FCF8C00671195 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 341405D11F4FCF8C00671195 /* main.m */; };
+		341405D51F4FCF8C00671195 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 341405D41F4FCF8C00671195 /* AppDelegate.m */; };
+		341405D81F4FCF8C00671195 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 341405D71F4FCF8C00671195 /* ViewController.m */; };
+		341405DB1F4FCF8C00671195 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 341405D91F4FCF8C00671195 /* Main.storyboard */; };
+		341405DD1F4FCF8C00671195 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 341405DC1F4FCF8C00671195 /* Assets.xcassets */; };
+		341405E01F4FCF8C00671195 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 341405DE1F4FCF8C00671195 /* LaunchScreen.storyboard */; };
+		341405EB1F4FCF8C00671195 /* MosaicDemoOCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 341405EA1F4FCF8C00671195 /* MosaicDemoOCTests.m */; };
+		341405F61F4FCF8C00671195 /* MosaicDemoOCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 341405F51F4FCF8C00671195 /* MosaicDemoOCUITests.m */; };
+		341406051F4FD2E200671195 /* MosaicTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 341406041F4FD2E200671195 /* MosaicTools.m */; };
+		341406071F4FD4B600671195 /* Oimage.png in Resources */ = {isa = PBXBuildFile; fileRef = 341406061F4FD4B600671195 /* Oimage.png */; };
+		3414060A1F4FD55300671195 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 341406091F4FD55300671195 /* TableViewController.m */; };
+		3D13626E949BA9400CFADA3D /* libPods-MosaicDemoOC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9403C3AC13359805275DF8D0 /* libPods-MosaicDemoOC.a */; };
+		E080AEAFEEC87E52ECBE0CFD /* libPods-MosaicDemoOCTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E1E99BBEA4ACA994F0CF96C /* libPods-MosaicDemoOCTests.a */; };
+		E87D43847039DB7958197152 /* libPods-MosaicDemoOCUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F35D6FA6D01286ACFD4560 /* libPods-MosaicDemoOCUITests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		341405E71F4FCF8C00671195 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 341405C51F4FCF8B00671195 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 341405CC1F4FCF8C00671195;
+			remoteInfo = MosaicDemoOC;
+		};
+		341405F21F4FCF8C00671195 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 341405C51F4FCF8B00671195 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 341405CC1F4FCF8C00671195;
+			remoteInfo = MosaicDemoOC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E1E99BBEA4ACA994F0CF96C /* libPods-MosaicDemoOCTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MosaicDemoOCTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FBB552414D0D2F80461BB53 /* Pods-MosaicDemoOC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MosaicDemoOC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MosaicDemoOC/Pods-MosaicDemoOC.debug.xcconfig"; sourceTree = "<group>"; };
+		19F35D6FA6D01286ACFD4560 /* libPods-MosaicDemoOCUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MosaicDemoOCUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		341405CD1F4FCF8C00671195 /* MosaicDemoOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MosaicDemoOC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		341405D11F4FCF8C00671195 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		341405D31F4FCF8C00671195 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		341405D41F4FCF8C00671195 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		341405D61F4FCF8C00671195 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		341405D71F4FCF8C00671195 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		341405DA1F4FCF8C00671195 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		341405DC1F4FCF8C00671195 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		341405DF1F4FCF8C00671195 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		341405E11F4FCF8C00671195 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		341405E61F4FCF8C00671195 /* MosaicDemoOCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MosaicDemoOCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		341405EA1F4FCF8C00671195 /* MosaicDemoOCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MosaicDemoOCTests.m; sourceTree = "<group>"; };
+		341405EC1F4FCF8C00671195 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		341405F11F4FCF8C00671195 /* MosaicDemoOCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MosaicDemoOCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		341405F51F4FCF8C00671195 /* MosaicDemoOCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MosaicDemoOCUITests.m; sourceTree = "<group>"; };
+		341405F71F4FCF8C00671195 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		341406031F4FD2E200671195 /* MosaicTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MosaicTools.h; sourceTree = "<group>"; };
+		341406041F4FD2E200671195 /* MosaicTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MosaicTools.m; sourceTree = "<group>"; };
+		341406061F4FD4B600671195 /* Oimage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Oimage.png; sourceTree = "<group>"; };
+		341406081F4FD55300671195 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		341406091F4FD55300671195 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		3A2AF07835CFB3AD53EE3D34 /* Pods-MosaicDemoOCTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MosaicDemoOCTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MosaicDemoOCTests/Pods-MosaicDemoOCTests.release.xcconfig"; sourceTree = "<group>"; };
+		41FE98A2691E362CBBA0FE86 /* Pods-MosaicDemoOCUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MosaicDemoOCUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MosaicDemoOCUITests/Pods-MosaicDemoOCUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		77348AB443F9C2551DEEFCCC /* Pods-MosaicDemoOC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MosaicDemoOC.release.xcconfig"; path = "Pods/Target Support Files/Pods-MosaicDemoOC/Pods-MosaicDemoOC.release.xcconfig"; sourceTree = "<group>"; };
+		78FA2645F64F3233DE0C5362 /* Pods-MosaicDemoOCUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MosaicDemoOCUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MosaicDemoOCUITests/Pods-MosaicDemoOCUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9403C3AC13359805275DF8D0 /* libPods-MosaicDemoOC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MosaicDemoOC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		98C3950C0FDCDE5B46144086 /* Pods-MosaicDemoOCTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MosaicDemoOCTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MosaicDemoOCTests/Pods-MosaicDemoOCTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		341405CA1F4FCF8C00671195 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D13626E949BA9400CFADA3D /* libPods-MosaicDemoOC.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		341405E31F4FCF8C00671195 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E080AEAFEEC87E52ECBE0CFD /* libPods-MosaicDemoOCTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		341405EE1F4FCF8C00671195 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E87D43847039DB7958197152 /* libPods-MosaicDemoOCUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		341405C41F4FCF8B00671195 = {
+			isa = PBXGroup;
+			children = (
+				341405CF1F4FCF8C00671195 /* MosaicDemoOC */,
+				341405E91F4FCF8C00671195 /* MosaicDemoOCTests */,
+				341405F41F4FCF8C00671195 /* MosaicDemoOCUITests */,
+				341405CE1F4FCF8C00671195 /* Products */,
+				893B4148076F3FA111003920 /* Pods */,
+				35BD68B85D5C35CD632E8049 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		341405CE1F4FCF8C00671195 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				341405CD1F4FCF8C00671195 /* MosaicDemoOC.app */,
+				341405E61F4FCF8C00671195 /* MosaicDemoOCTests.xctest */,
+				341405F11F4FCF8C00671195 /* MosaicDemoOCUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		341405CF1F4FCF8C00671195 /* MosaicDemoOC */ = {
+			isa = PBXGroup;
+			children = (
+				341405D31F4FCF8C00671195 /* AppDelegate.h */,
+				341405D41F4FCF8C00671195 /* AppDelegate.m */,
+				341406081F4FD55300671195 /* TableViewController.h */,
+				341406091F4FD55300671195 /* TableViewController.m */,
+				341405D61F4FCF8C00671195 /* ViewController.h */,
+				341405D71F4FCF8C00671195 /* ViewController.m */,
+				341406031F4FD2E200671195 /* MosaicTools.h */,
+				341406041F4FD2E200671195 /* MosaicTools.m */,
+				341406061F4FD4B600671195 /* Oimage.png */,
+				341405D91F4FCF8C00671195 /* Main.storyboard */,
+				341405DC1F4FCF8C00671195 /* Assets.xcassets */,
+				341405DE1F4FCF8C00671195 /* LaunchScreen.storyboard */,
+				341405E11F4FCF8C00671195 /* Info.plist */,
+				341405D01F4FCF8C00671195 /* Supporting Files */,
+			);
+			path = MosaicDemoOC;
+			sourceTree = "<group>";
+		};
+		341405D01F4FCF8C00671195 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				341405D11F4FCF8C00671195 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		341405E91F4FCF8C00671195 /* MosaicDemoOCTests */ = {
+			isa = PBXGroup;
+			children = (
+				341405EA1F4FCF8C00671195 /* MosaicDemoOCTests.m */,
+				341405EC1F4FCF8C00671195 /* Info.plist */,
+			);
+			path = MosaicDemoOCTests;
+			sourceTree = "<group>";
+		};
+		341405F41F4FCF8C00671195 /* MosaicDemoOCUITests */ = {
+			isa = PBXGroup;
+			children = (
+				341405F51F4FCF8C00671195 /* MosaicDemoOCUITests.m */,
+				341405F71F4FCF8C00671195 /* Info.plist */,
+			);
+			path = MosaicDemoOCUITests;
+			sourceTree = "<group>";
+		};
+		35BD68B85D5C35CD632E8049 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9403C3AC13359805275DF8D0 /* libPods-MosaicDemoOC.a */,
+				0E1E99BBEA4ACA994F0CF96C /* libPods-MosaicDemoOCTests.a */,
+				19F35D6FA6D01286ACFD4560 /* libPods-MosaicDemoOCUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		893B4148076F3FA111003920 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0FBB552414D0D2F80461BB53 /* Pods-MosaicDemoOC.debug.xcconfig */,
+				77348AB443F9C2551DEEFCCC /* Pods-MosaicDemoOC.release.xcconfig */,
+				98C3950C0FDCDE5B46144086 /* Pods-MosaicDemoOCTests.debug.xcconfig */,
+				3A2AF07835CFB3AD53EE3D34 /* Pods-MosaicDemoOCTests.release.xcconfig */,
+				41FE98A2691E362CBBA0FE86 /* Pods-MosaicDemoOCUITests.debug.xcconfig */,
+				78FA2645F64F3233DE0C5362 /* Pods-MosaicDemoOCUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		341405CC1F4FCF8C00671195 /* MosaicDemoOC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 341405FA1F4FCF8C00671195 /* Build configuration list for PBXNativeTarget "MosaicDemoOC" */;
+			buildPhases = (
+				8B3514C0E593A6EB1B02C0BC /* [CP] Check Pods Manifest.lock */,
+				341405C91F4FCF8C00671195 /* Sources */,
+				341405CA1F4FCF8C00671195 /* Frameworks */,
+				341405CB1F4FCF8C00671195 /* Resources */,
+				EC6219DD2AAB32AC0E56437E /* [CP] Embed Pods Frameworks */,
+				7EEC0104F4A8ABD9E94AC4C9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MosaicDemoOC;
+			productName = MosaicDemoOC;
+			productReference = 341405CD1F4FCF8C00671195 /* MosaicDemoOC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		341405E51F4FCF8C00671195 /* MosaicDemoOCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 341405FD1F4FCF8C00671195 /* Build configuration list for PBXNativeTarget "MosaicDemoOCTests" */;
+			buildPhases = (
+				AD9D22AF65C254BB9D5DA252 /* [CP] Check Pods Manifest.lock */,
+				341405E21F4FCF8C00671195 /* Sources */,
+				341405E31F4FCF8C00671195 /* Frameworks */,
+				341405E41F4FCF8C00671195 /* Resources */,
+				32AD2AAF181CD6E81C712C45 /* [CP] Embed Pods Frameworks */,
+				1EAA29DCD0B4CC16664E5D0B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				341405E81F4FCF8C00671195 /* PBXTargetDependency */,
+			);
+			name = MosaicDemoOCTests;
+			productName = MosaicDemoOCTests;
+			productReference = 341405E61F4FCF8C00671195 /* MosaicDemoOCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		341405F01F4FCF8C00671195 /* MosaicDemoOCUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 341406001F4FCF8C00671195 /* Build configuration list for PBXNativeTarget "MosaicDemoOCUITests" */;
+			buildPhases = (
+				1888D0067D32D4694C30EF6B /* [CP] Check Pods Manifest.lock */,
+				341405ED1F4FCF8C00671195 /* Sources */,
+				341405EE1F4FCF8C00671195 /* Frameworks */,
+				341405EF1F4FCF8C00671195 /* Resources */,
+				6D578B361CF6F97FB87D7FA4 /* [CP] Embed Pods Frameworks */,
+				FBD9C50CAFAFD36C8BD9DEC4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				341405F31F4FCF8C00671195 /* PBXTargetDependency */,
+			);
+			name = MosaicDemoOCUITests;
+			productName = MosaicDemoOCUITests;
+			productReference = 341405F11F4FCF8C00671195 /* MosaicDemoOCUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		341405C51F4FCF8B00671195 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = StevenXie;
+				TargetAttributes = {
+					341405CC1F4FCF8C00671195 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 7QT42R489Z;
+						ProvisioningStyle = Automatic;
+					};
+					341405E51F4FCF8C00671195 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 341405CC1F4FCF8C00671195;
+					};
+					341405F01F4FCF8C00671195 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 341405CC1F4FCF8C00671195;
+					};
+				};
+			};
+			buildConfigurationList = 341405C81F4FCF8B00671195 /* Build configuration list for PBXProject "MosaicDemoOC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 341405C41F4FCF8B00671195;
+			productRefGroup = 341405CE1F4FCF8C00671195 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				341405CC1F4FCF8C00671195 /* MosaicDemoOC */,
+				341405E51F4FCF8C00671195 /* MosaicDemoOCTests */,
+				341405F01F4FCF8C00671195 /* MosaicDemoOCUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		341405CB1F4FCF8C00671195 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				341405E01F4FCF8C00671195 /* LaunchScreen.storyboard in Resources */,
+				341405DD1F4FCF8C00671195 /* Assets.xcassets in Resources */,
+				341405DB1F4FCF8C00671195 /* Main.storyboard in Resources */,
+				341406071F4FD4B600671195 /* Oimage.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		341405E41F4FCF8C00671195 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		341405EF1F4FCF8C00671195 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1888D0067D32D4694C30EF6B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1EAA29DCD0B4CC16664E5D0B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MosaicDemoOCTests/Pods-MosaicDemoOCTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		32AD2AAF181CD6E81C712C45 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MosaicDemoOCTests/Pods-MosaicDemoOCTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D578B361CF6F97FB87D7FA4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MosaicDemoOCUITests/Pods-MosaicDemoOCUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7EEC0104F4A8ABD9E94AC4C9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MosaicDemoOC/Pods-MosaicDemoOC-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B3514C0E593A6EB1B02C0BC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AD9D22AF65C254BB9D5DA252 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EC6219DD2AAB32AC0E56437E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MosaicDemoOC/Pods-MosaicDemoOC-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FBD9C50CAFAFD36C8BD9DEC4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MosaicDemoOCUITests/Pods-MosaicDemoOCUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		341405C91F4FCF8C00671195 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				341405D81F4FCF8C00671195 /* ViewController.m in Sources */,
+				341406051F4FD2E200671195 /* MosaicTools.m in Sources */,
+				341405D51F4FCF8C00671195 /* AppDelegate.m in Sources */,
+				3414060A1F4FD55300671195 /* TableViewController.m in Sources */,
+				341405D21F4FCF8C00671195 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		341405E21F4FCF8C00671195 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				341405EB1F4FCF8C00671195 /* MosaicDemoOCTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		341405ED1F4FCF8C00671195 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				341405F61F4FCF8C00671195 /* MosaicDemoOCUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		341405E81F4FCF8C00671195 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 341405CC1F4FCF8C00671195 /* MosaicDemoOC */;
+			targetProxy = 341405E71F4FCF8C00671195 /* PBXContainerItemProxy */;
+		};
+		341405F31F4FCF8C00671195 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 341405CC1F4FCF8C00671195 /* MosaicDemoOC */;
+			targetProxy = 341405F21F4FCF8C00671195 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		341405D91F4FCF8C00671195 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				341405DA1F4FCF8C00671195 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		341405DE1F4FCF8C00671195 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				341405DF1F4FCF8C00671195 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		341405F81F4FCF8C00671195 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		341405F91F4FCF8C00671195 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		341405FB1F4FCF8C00671195 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FBB552414D0D2F80461BB53 /* Pods-MosaicDemoOC.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 7QT42R489Z;
+				INFOPLIST_FILE = MosaicDemoOC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = R.S.MosaicDemoOC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		341405FC1F4FCF8C00671195 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77348AB443F9C2551DEEFCCC /* Pods-MosaicDemoOC.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 7QT42R489Z;
+				INFOPLIST_FILE = MosaicDemoOC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = R.S.MosaicDemoOC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		341405FE1F4FCF8C00671195 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98C3950C0FDCDE5B46144086 /* Pods-MosaicDemoOCTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MosaicDemoOCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = R.S.MosaicDemoOCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MosaicDemoOC.app/MosaicDemoOC";
+			};
+			name = Debug;
+		};
+		341405FF1F4FCF8C00671195 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A2AF07835CFB3AD53EE3D34 /* Pods-MosaicDemoOCTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MosaicDemoOCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = R.S.MosaicDemoOCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MosaicDemoOC.app/MosaicDemoOC";
+			};
+			name = Release;
+		};
+		341406011F4FCF8C00671195 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41FE98A2691E362CBBA0FE86 /* Pods-MosaicDemoOCUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = MosaicDemoOCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = R.S.MosaicDemoOCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MosaicDemoOC;
+			};
+			name = Debug;
+		};
+		341406021F4FCF8C00671195 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78FA2645F64F3233DE0C5362 /* Pods-MosaicDemoOCUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = MosaicDemoOCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = R.S.MosaicDemoOCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MosaicDemoOC;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		341405C81F4FCF8B00671195 /* Build configuration list for PBXProject "MosaicDemoOC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				341405F81F4FCF8C00671195 /* Debug */,
+				341405F91F4FCF8C00671195 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		341405FA1F4FCF8C00671195 /* Build configuration list for PBXNativeTarget "MosaicDemoOC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				341405FB1F4FCF8C00671195 /* Debug */,
+				341405FC1F4FCF8C00671195 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		341405FD1F4FCF8C00671195 /* Build configuration list for PBXNativeTarget "MosaicDemoOCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				341405FE1F4FCF8C00671195 /* Debug */,
+				341405FF1F4FCF8C00671195 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		341406001F4FCF8C00671195 /* Build configuration list for PBXNativeTarget "MosaicDemoOCUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				341406011F4FCF8C00671195 /* Debug */,
+				341406021F4FCF8C00671195 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 341405C51F4FCF8B00671195 /* Project object */;
+}
