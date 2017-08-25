@@ -61,6 +61,9 @@ self.OimageView.image = [MosaicTools GPUImageStyleWithImage:self.OimageView.imag
 self.OimageView.image = [MosaicTools boxblurImage:self.OimageView.image withBlurNumber:5];
 ```
 
+五种方法的效率对比，仅供参考
+![](http://og1yl0w9z.bkt.clouddn.com/17-8-25/41437509.jpg)
+
 使用简单、效率高效、进程安全~~~如果你有更好的建议,希望不吝赐教!
 
 
